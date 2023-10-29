@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.app-container {
+  text-align: center;
+}
+
+textarea {
+  width: 80%;
+  height: 150px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.code-display {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 80%;
+  overflow: auto;
+  background-color: #fff;
+}
