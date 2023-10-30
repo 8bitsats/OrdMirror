@@ -1,37 +1,61 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f0f0f0;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #00ff00;
+    background-color: black;
 }
 
-.app-container {
-  text-align: center;
+#matrix-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
-textarea {
-  width: 80%;
-  height: 150px;
-  margin-bottom: 20px;
-  padding: 10px;
-  font-size: 16px;
+#wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+#input-area {
+    margin-top: 20px;
+}
+
+#url-input, #content-type, button {
+    padding: 10px;
+    margin: 5px;
 }
 
 button {
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
+    cursor: pointer;
 }
 
-.code-display {
-  margin-top: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  width: 80%;
-  overflow: auto;
-  background-color: #fff;
+#content-viewer {
+    margin-top: 20px;
+}
+
+canvas {
+    border: 1px solid #00ff00;
+}
+
+#links {
+    margin-top: 20px;
+}
+
+a {
+    color: #00ff00;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
